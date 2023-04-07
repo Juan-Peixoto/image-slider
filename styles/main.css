@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+section.slider-section div.image-slider {
+  width: 60vw;
+  min-width: 300px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px;
+  background-color: rgb(56, 56, 56);
+  overflow: hidden;
+  border-radius: 15px;
+}
+section.slider-section div.image-slider div.slider-body {
+  position: relative;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgb(219, 219, 219);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+section.slider-section div.image-slider div.slider-controls {
+  border-radius: 0px 0px 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.slider-section div.image-slider div.slider-controls span.control-circle {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  margin: 0px 10px;
+  cursor: pointer;
+}
+section.slider-section div.image-slider div.slider-controls span.control-circle:hover {
+  background-color: rgb(92, 92, 92);
+  border: 2px solid rgb(255, 255, 255);
+}/*# sourceMappingURL=main.css.map */
