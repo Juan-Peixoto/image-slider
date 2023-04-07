@@ -1,0 +1,49 @@
+@use 'colors';
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+section.image-slider-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+
+    div.image-slider
+    {
+        max-width: 600px;
+        min-width: 300px;
+        height: fit-content;
+        padding: 20px;
+        border: 1px 1px solid colors.$border-color;
+
+        div.slider-body
+        {
+            background-color: colors.$slider-body;
+            height: 500px;
+        }
+
+        div.slider-controls
+        {
+            height: fit-content;
+            padding: 10px;
+            background-color: colors.$slider-controls;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span.control-circle
+            {
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                background-color: colors.$control-circle;
+            }
+        }
+    }
+}
