@@ -1,8 +1,3 @@
-function conectButtonToImage(button, buttonIndex) {
-    
-}
-
-
 const sliderBody = document.getElementById('sliderBody');
 
 const controlCircles = document.querySelectorAll('.control-circle');
@@ -15,6 +10,16 @@ const imagesHref = [
     'spacialcity.png'
 ];
 
-controlCircles.forEach((button, buttonIndex) => {
-    button.addEventListener('click', conectButtonToImage(button, buttonIndex));
+controlCircles.forEach((button, buttonIndex) =>
+{
+    button.addEventListener('click', conectButtonToImage(button, buttonIndex, imagesHref));
 });
+
+
+function conectButtonToImage(button, buttonIndex, imagesHrefList)
+{
+    button.onclick = () =>
+    {
+        sliderBody.style.backgroundImage = `url("../images/${imagesHrefList[buttonIndex]}")`;
+    };
+}
