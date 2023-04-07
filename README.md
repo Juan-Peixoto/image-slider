@@ -8,6 +8,8 @@ tried to make a good script aiming the reusability and scalability,<br>
 but without using <em>Libraries</em> or <em>Frameworks</em>.
 </p>
 
+<img src="./images/mockup.png" alt="Image Slider apresentation picture" title="Image Slider Mockup">
+
 <h2>🛠 &nbsp;Builded with:</h2>
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
