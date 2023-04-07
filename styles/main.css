@@ -26,6 +26,7 @@ section.slider-section div.image-slider div.slider-body {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(219, 219, 219);
   height: 70vh;
+  background-image: url("../images/bigworlds.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
