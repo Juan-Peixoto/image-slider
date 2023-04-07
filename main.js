@@ -3,11 +3,11 @@ const sliderBody = document.getElementById('sliderBody');
 const controlCircles = document.querySelectorAll('.control-circle');
 
 const imagesHref = [
-    'bigworlds.jpg',
-    'futuristic-city.png',
-    'miniworlds.jpg',
-    'peopledworld.jpg',
-    'spacialcity.png'
+    'bigworlds.webp',
+    'futuristic-city.webp',
+    'miniworlds.webp',
+    'peopledworld.webp',
+    'spacialcity.webp'
 ];
 
 controlCircles.forEach((button, buttonIndex) =>
