@@ -1,4 +1,5 @@
-function conectButtonToImage(button, buttonIndex, imagesHrefList)
+
+const conectButtonToImage = (button, buttonIndex, imagesHrefList) =>
 {
     button.onclick = () =>
     {
@@ -7,13 +8,13 @@ function conectButtonToImage(button, buttonIndex, imagesHrefList)
 }
 
 
-function sleep(ms)
+const sleep = (ms) =>
 {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 
-async function loopSlider(arrayOfButtons)
+const loopSlider = async (arrayOfButtons) =>
 {
     for (let i = 0;i < arrayOfButtons.length;i++)
     {
