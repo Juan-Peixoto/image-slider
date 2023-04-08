@@ -30,6 +30,7 @@ section.slider-section div.image-slider div.slider-body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1.2s;
   z-index: 1;
 }
 section.slider-section div.image-slider div.slider-controls {
