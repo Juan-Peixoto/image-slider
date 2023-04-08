@@ -1,12 +1,16 @@
 # Image Slider
 
 > I did it for a simple test from a JavaScript course.<br>
+> I always practice and study using virtual ambientes to isolate my PC<br>
+and to don't forget to practice linux and command lines.<br>
 
 <p>
 I used <em>Gimp</em> to edit the images in a relative good size and format,<br>
 tried to make a good script aiming the reusability and scalability,<br>
 but without using <em>Libraries</em> or <em>Frameworks</em>.
 </p>
+
+> The reason why i used an array of images urls is to not forget to make<br>this work with json in backend in the future.
 
 <img src="./images/mockup.png" alt="Image Slider apresentation picture" title="Image Slider Mockup">
 
